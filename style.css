@@ -1,0 +1,330 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Josefin+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    transition: 0.5s ease;
+    scroll-behavior: smooth;
+}
+
+li{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Bitter', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    color: gray;
+    font-size: large;
+}
+li:hover{
+    color: darkgray;
+}
+a{
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content:center;
+    /* content: ''; */
+  
+}
+nav{
+    
+    color: gray;
+    height: 100px;
+    padding-top:20px ;
+    
+}
+.fb{
+width: 40px;
+height: 40px;
+padding-left: 10px;
+}
+.gh{
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+}
+.tw{
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.dp{
+    border-radius: 50%;
+    width:300px ;
+    height:300px;
+    /* border: 1px solid yellow; */
+    margin-left: 950px;
+    display: inline-block;
+    
+}
+.dp:hover{
+    scale: 0.95;
+    transition: 0.9s ease-in-out;
+}
+.starth2{
+    font-family: 'Bitter', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size:xx-large;
+    font-weight: bolder;
+    /* margin-top: 100px; */
+    /* margin-left: 150px; */
+    /* border: 1px solid yellow; */
+    display: inline-block;
+    margin-bottom: 20px;
+    position: absolute;
+    top:18%;
+    left:10%;
+    word-spacing: 10px;
+}
+p{
+    font-family: 'Bitter', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    color:white;
+    /* margin-left: 150px; */
+    display: inline-block;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    top:32%;
+    left:10%;
+    word-spacing: 10px;
+    line-height: 25px;
+}
+.pr{
+    background-image:url(/img/portfolio-background.png);
+    width: 100%;
+    height:80vh;
+    padding-top: 70px;
+    position: relative;
+}
+.span{
+  
+    padding-left: 110px;
+    color: yellow;
+}
+.wspan{
+    color:green;
+}
+.box1{
+    width: 19%;
+    height: 10%;
+    background-color:white;
+    margin-top: 18px;
+    margin-left: 20px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.ed{
+  margin-left: 250px;
+  margin-top: 30px;
+  position: relative;
+  margin-left: 500px;
+  
+}
+.edbg{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 24%, rgba(0,212,255,1) 100%);
+}
+.eh{
+    margin-left: 500px;
+    margin-top: 60px;
+    color:lightblue;
+}
+.bscs{
+    margin-top: 60px;
+    color: rgb(221, 93, 93);
+}
+.fsc{
+    color:lightcyan; 
+}
+.matric{
+    color:yellow;
+    padding-bottom: 20px;
+}
+.uop{
+    color: gray;
+}
+.ed-his-hr{
+    width: 22%;
+    color:gray ;
+    border-radius: 50%;
+    margin-left: 470px;
+}
+.firstEd {
+    border-left: 2px solid  rgb(221, 93, 93);
+    height: 150px;
+    position: absolute;
+    left: -2%;
+    margin-left: -3px;
+    top: 14%;
+}
+.seEd{
+    border-left: 2px solid blue;
+    height: 180px;
+    position: absolute;
+    left: 25%;
+    margin-left: -3px;
+    top: 56%;
+}
+/* .thEd{
+    border-left: 2px solid yellow;
+    height: 200px;
+    position: absolute;
+    left: -2%;
+    margin-left: -3px;
+    top: 100%;
+} */
+
+/* div */
+.cert{
+/* margin-top:5%; */
+text-align: center;
+background-image: url(/img/desktop-1920x1080\ bg.jpg);
+width: 100%;
+height:100vh;
+
+
+}
+.grid{
+    display: grid;
+grid-template-columns: auto auto ;
+grid-template-rows:auto auto auto auto;
+}
+
+.cer{
+    color:cadetblue;
+    padding-top:30px ;
+}
+.intro{
+    color:white;
+    margin-top: 55px;
+    margin-left: 20px;
+   
+}
+
+.introcyber{
+    width: 200px;
+    height: 200px;
+    border-radius: none;
+    margin-top: 30px;
+}
+.introcyber:hover{
+    scale: 1.1;
+    transition: 0.9s ease-in-out;
+    border-radius: 100px;
+}
+
+.pr{
+    background-image: url(/img/ales-nesetril-Im7lZjxeLhg-unsplash\ \(1\).jpg);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+   
+    
+}
+.projects{
+    color:white;
+    text-align: center;
+    font-size:xx-large ;
+    /* margin-bottom: 20px; */
+    
+}
+.projectshr{
+    width: 10%;
+    margin: auto;
+    border-radius: 50%;
+
+}
+.linkf{
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+font-size: large;
+border: 1px solid white;
+position: absolute;
+top:70%;
+left: 40%;
+}
+.linkf:hover{
+    scale: 1.1 ;
+    transition: ease-in;
+    transition-duration: 0.5s ;
+}
+.tail{
+width: 500px;
+height: 200px;
+margin-top: 25px;
+border-radius: 15px;
+margin-left: 400px;
+border: 1px solid white;
+}
+.tail:hover{
+    scale: 1.1 ;
+    transition: ease-in;
+    transition-duration: 0.5s ;
+
+}
+.navs{
+    width: 500px;
+    height: 200px;
+    margin-top: 35px;
+    border-radius: 15px;
+    margin-left: 400px;
+    border: 1px solid white;
+}
+.navs:hover{
+    scale: 1.1 ;
+    transition: ease-in;
+    transition-duration: 0.5s ;
+
+}
+
+.links{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border: 1px solid white;
+    position: absolute;
+    top:150%;
+    left: 40%;
+}
+
+.cm{
+    background-image: url(/img/page-heading-background-contact-us.jpg);
+    width: 100%;
+    height: 50vh;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: auto  ;
+    grid-template-rows: auto auto auto;
+   
+}
+.details{
+    color: white;
+    font-size: large;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    padding-left: 70px;
+}
+.email{
+padding-right: 15px;
+}
+.address{
+    padding-right: 15px;
+}
+.mobile{
+    padding-right: 15px;
+}
+.social{
+    margin-left: 550px;
+}
